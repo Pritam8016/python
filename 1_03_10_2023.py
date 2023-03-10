@@ -57,3 +57,31 @@ print("sub of k & p is : ",k-p)
 print("multipication of k & p is : ",k*p)
 print("division of k & p is : ",k/p)
 
+
+x2 = 5 # x2 is of type intger
+x2 = "five" # x2 is now type string
+print(x2)
+
+
+x3 = 5 # type of int
+x4 = "five" #type of str
+x5 = 5.0 # type of float
+print(type(x3))
+print(type(x4))
+print(type(x5))
+
+
+x6 = "atashi" 
+#double quotes are the same as single quotes:
+x6 = 'atashi'
+print(x6)
+print(x6) 
+
+
+r = 8
+R = "eight"
+# R will not overwright r
+print(r)
+print(R)
+
+
