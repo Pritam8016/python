@@ -49,3 +49,11 @@ num4 = 15
 
 
 print(num1+num2+num3+num4)
+
+k = 50
+p = 25
+print("sum of k & p is : ",k+p)
+print("sub of k & p is : ",k-p)
+print("multipication of k & p is : ",k*p)
+print("division of k & p is : ",k/p)
+
