@@ -49,3 +49,70 @@ g , h , i = ware
 print(g)
 print(h)
 print(i)
+
+# output variables 
+j = "my mother is my life ."
+print(j)
+
+k = "my mother"
+l = "is"
+m = "my life ."
+
+print(k , l , m )
+
+n = "my father"
+o = "is"
+p = "my heart"
+
+print(n+" "+ o +" "+p)
+
+q = 98
+r = 100
+
+print(q + r)
+
+s = "ram"
+t = 10
+print(s + str(t))
+
+u = "sumi"
+v = 10
+print(u , v)
+
+
+# global variable :
+
+y = "good"
+
+def myfun():
+  print("SQL is " + y)
+
+myfun()
+
+z = "awesome"
+
+def myfunc():
+  z = "fantastic"
+  print("python is " + z )
+
+myfunc()
+
+print("py is " + z)
+
+def myfunc():
+  global x1
+  x1 = "nice"
+
+myfunc()
+
+print("java is " + x1)
+
+x2 = "wow"
+
+def myfunc():
+  global x2
+  x2 = "excilent"
+
+myfunc()
+
+print("python is " + x2)
