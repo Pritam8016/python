@@ -91,28 +91,29 @@ myfun()
 
 z = "awesome"
 
-def myfunc():
+def myfun2():
   z = "fantastic"
   print("python is " + z )
 
-myfunc()
+myfun2()
 
 print("py is " + z)
 
-def myfunc():
+def myfun3():
   global x1
   x1 = "nice"
 
-myfunc()
+myfun3()
 
 print("java is " + x1)
 
-x2 = "wow"
+x2 = "wow" 
 
-def myfunc():
+def myfun4():
   global x2
   x2 = "excilent"
 
-myfunc()
+myfun4()
 
 print("python is " + x2)
+
